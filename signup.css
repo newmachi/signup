@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: aliceblue;
+    padding: 5%;
+    /* margin: 0;
+    box-sizing: border-box; */
+}
+
+.container{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: auto;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 3em;
+    /* margin-bottom: 25px; */
+    padding: 10px;
+}
+
+#easy{
+    margin-bottom: 10px;
+}
+
+.signup_form h2{
+    text-align: center;
+}
+
+.signup_form p{
+    text-align: center;
+}
+
+.signup_form{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#text_input{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+}
+
+ .date-gender{
+    display: grid;
+    /* justify-content: space-between; */
+    grid-auto-flow: column;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}
+
+.date-gender select{
+    padding: 10px;
+    height: 35px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+
+
+.gender{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 5px;
+    margin-bottom: 10px;
+    /* border: 2px solid salmon; */
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #0059ff;
+}
+
+.attr{
+    font-size: 1em;
+    line-height: 2;
+    word-spacing: 2;
+}
+
+.attr h2{
+    margin-top: 10px;
+}
+
+.attr p{
+    margin-top: 10px;
+}
+
+.signup-btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #00a400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}

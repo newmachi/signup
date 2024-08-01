@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>signup</title>
+</head>
+<body>
+
+    <!-- header -->
+    <h1>facebook</h1>
+    <div class="container">
+      <div class="signup_form">
+
+        <!-- message -->
+        <h2>Create a new account</h2>
+        <p id="easy">it's quick and easy</p> 
+      
+        <!-- form -->
+       <form>
+        <!-- first name and password -->
+       <div id="text_input">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Surname"  required>
+       </div>
+
+       <!-- email and password -->
+        <input type="text" placeholder="Mobile number or email address" required>
+        <input type="password" placeholder="New password" required>
+
+        <!-- date of birth -->
+        <label for="dob">Date of birth</label>
+       <div class="date-gender">
+        <select name="day" required>
+         <option value="" selected>31</option>
+        </select>
+        <select name="month" required>
+         <option value="" selected>Jul</option>
+        </select>
+        <select name="year" required>
+         <option value="2024" selected>2024</option>
+        </select>
+       </div>
+
+       <!-- gender -->
+       <label for="">Gender</label>
+       <div class="gender">
+        <label for="female">female</label>
+        <input type="radio" name="gender" value="female" required>
+        <label for="female">male</label>
+        <input type="radio" name="gender" value="male" required>
+        <label for="female">custom</label>
+        <input type="radio" name="gender" value="custom">
+       </div>
+       <!-- attr message -->
+        <div class="attr">
+        <p>People who use our service may have uploaded your contact
+            information to Facebook <a href="">Learn more</a>
+          </p>
+          <p>
+           By clicking Sign Up, you agree to our <a href="">Terms</a>,
+           <a href="">Privacy Policy</a> and 
+           <a href="">Cookies Policy</a>.
+           You may receive SMS notifications from us and can opt out any time.
+          </p>
+        </div>
+     <!-- button -->     
+       <button type="submit" class="signup-btn">Sign Up</button>
+       </form> 
+
+       <!-- have an account -->
+       <p class="Already"> <a href="">Already have an account?</a></p>
+      </div>  
+    </div>
+</body>
+</html>
